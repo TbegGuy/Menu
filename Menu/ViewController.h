@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (nonatomic , strong) UIScrollView *X_scrollView;
+@property (nonatomic , strong) UIScrollView *Y_ScrollView;
+@property (nonatomic , strong) UIScrollView *Main_ScrollView;
 
 @end
 

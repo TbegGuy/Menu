@@ -14,6 +14,7 @@
 		873680581CC4B03100448B55 /* Menu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 873680561CC4B03100448B55 /* Menu.xcdatamodeld */; };
 		8736805A1CC4B03100448B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873680591CC4B03100448B55 /* Assets.xcassets */; };
 		8736805D1CC4B03100448B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8736805B1CC4B03100448B55 /* LaunchScreen.storyboard */; };
+		873680661CC4B08500448B55 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873680651CC4B08500448B55 /* TitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		873680591CC4B03100448B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8736805C1CC4B03100448B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8736805E1CC4B03100448B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873680641CC4B08500448B55 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		873680651CC4B08500448B55 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				8736804E1CC4B03000448B55 /* AppDelegate.m */,
 				873680501CC4B03000448B55 /* ViewController.h */,
 				873680511CC4B03000448B55 /* ViewController.m */,
+				873680641CC4B08500448B55 /* TitleView.h */,
+				873680651CC4B08500448B55 /* TitleView.m */,
 				873680531CC4B03000448B55 /* Main.storyboard */,
 				873680591CC4B03100448B55 /* Assets.xcassets */,
 				8736805B1CC4B03100448B55 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			files = (
 				873680521CC4B03000448B55 /* ViewController.m in Sources */,
 				8736804F1CC4B03000448B55 /* AppDelegate.m in Sources */,
+				873680661CC4B08500448B55 /* TitleView.m in Sources */,
 				873680581CC4B03100448B55 /* Menu.xcdatamodeld in Sources */,
 				8736804C1CC4B03000448B55 /* main.m in Sources */,
 			);
